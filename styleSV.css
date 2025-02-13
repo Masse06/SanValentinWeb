@@ -1,0 +1,79 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center; /* Centrar todo el texto dentro de body */
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrar los elementos verticalmente dentro del contenedor */
+    align-items: center; /* Centrar los elementos horizontalmente dentro del contenedor */
+    text-align: center; /* Centrar los textos dentro del contenedor */
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    margin-bottom: 10px; /* Reducir el espacio debajo del título */
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px; /* Reducir el espacio debajo del subtítulo */
+}
+
+img {
+    width: 200px; /* Ajuste inicial del tamaño de la imagen */
+    height: auto;
+    margin-top: 5px; /* Reducir el margen entre el texto y la imagen */
+}
+
+/* Media Queries para pantallas más pequeñas */
+
+@media (max-width: 768px) {
+    /* Para dispositivos con un ancho de pantalla de 768px o menos (tabletas y móviles en modo horizontal) */
+    h1 {
+        font-size: 50px; /* Reducir tamaño del título */
+        margin-bottom: 8px; /* Reducir espacio entre título y subtítulo */
+    }
+
+    h2 {
+        font-size: 40px; /* Reducir tamaño del subtítulo */
+        margin-bottom: 8px; /* Reducir espacio entre subtítulo y la imagen */
+    }
+
+    img {
+        width: 150px; /* Reducir tamaño de la imagen */
+        margin-top: 3px; /* Reducir más el espacio entre subtítulo y la imagen */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Para pantallas más pequeñas (teléfonos móviles en orientación vertical) */
+    h1 {
+        font-size: 30px; /* Aún más pequeño el título */
+        margin-bottom: 5px; /* Reducir espacio debajo del título */
+    }
+
+    h2 {
+        font-size: 25px; /* Aumentar aún más la reducción del subtítulo */
+        margin-bottom: 5px; /* Reducir espacio debajo del subtítulo */
+    }
+
+    img {
+        width: 120px; /* Reducir aún más el tamaño de la imagen */
+        margin-top: 2px; /* Reducir el margen entre el subtítulo y la imagen */
+    }
+}
