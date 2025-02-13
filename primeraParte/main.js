@@ -1,6 +1,5 @@
 function cambiarPagina() {
-    // Aquí puedes poner la URL a la que quieras redirigir cuando se pulse el primer botón.
-    window.location.href = "sanValentin.html"; // Reemplaza con la URL deseada.
+    window.location.href = "/SanValentinWeb/segundaParte/sanValentin.html";
 }
 
 function moverBoton() {
