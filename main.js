@@ -1,5 +1,5 @@
 function cambiarPagina() {
-    window.location.href = "/SanValentinWeb/segundaParte/sanValentin.html";
+    window.location.href = "sanValentin.html";
 }
 
 function moverBoton() {
