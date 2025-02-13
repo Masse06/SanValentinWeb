@@ -61,17 +61,17 @@ h1 {
 @media (max-width: 600px) {
     /* Para dispositivos con un ancho de pantalla de 600px o menos (como teléfonos móviles) */
     h1 {
-        font-size: 30px; /* Reducir el tamaño de la fuente */
+        font-size: 40px; /* Reducir el tamaño de la fuente */
     }
 
     .boton {
-        width: 80%;  /* Hacer los botones más anchos */
-        font-size: 18px; /* Aumentar el tamaño de fuente en los botones */
-        padding: 15px 0; /* Reducir el padding */
+        width: 40%;  /* Hacer los botones más anchos */
+        font-size: 24px; /* Aumentar el tamaño de fuente en los botones */
+        padding: 25px 0; /* Reducir el padding */
     }
 
     #boton1, #boton2 {
-        width: 80%;
+        width: 40%;
         margin: 10px 0; /* Espacio vertical entre los botones */
     }
 
